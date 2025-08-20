@@ -1,8 +1,8 @@
-import { IProject } from './project.interface.'
+import { IProject } from './project.interface'
 import { IUser } from './user.interface'
 
 export interface ITask {
-  id: number
+  id: string
   name: string
   status: 'pending' | 'completed'
   project: IProject
